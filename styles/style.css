@@ -106,7 +106,8 @@ main {
   border-radius: 8px;
   height: 300px;
   background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
-    url("/media/images/watch.png");
+    url("../media/images/watch.png");
+  margin-bottom: 120px;
 }
 .call-now-title {
   padding-top: 60px;
@@ -124,5 +125,69 @@ main {
   height: 64px;
   color: #005fac;
   border-radius: 5px;
+  border: none;
+}
+/* ============= footer styles ========= */
+.footer {
+  height: 400px;
+  background: #151414;
+}
+.footer-content {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.futures {
+  text-align: left;
+}
+.future-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+  margin-bottom: 15px;
+}
+.future-description {
+  width: 485px;
+  height: 78px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #f8f8f8;
+}
+.future-contact {
+  font-weight: 400;
+  font-size: 16px;
+  width: 190px;
+  height: 26px;
+
+  color: #ffffff;
+}
+.subscribe-title {
+  width: 123px;
+  height: 29px;
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+.subscribe-email {
+  width: 325px;
+  height: 64px;
+  background: #151414;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 18px;
+}
+.subscribe.placeholder {
+  width: 325px;
+  height: 64px;
+}
+.subscribe-button {
+  color: #ffffff;
+  width: 170.11px;
+  height: 64px;
+  font-weight: 600;
+  font-size: 20px;
+  background: #005fac;
+  border-radius: 8px;
   border: none;
 }
