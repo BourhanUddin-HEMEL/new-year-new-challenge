@@ -38,14 +38,14 @@
 }
 /* ======== main styles ========== */
 main {
+  background-color: aqua;
   max-width: 1080px;
   margin: 0 auto;
 }
 .my-failures {
-  position: absolute;
-  margin: 130px 230px;
+  margin: 130px 0px 130px 0px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .my-images {
   width: 569px;
@@ -75,4 +75,28 @@ main {
 }
 .fails-list.p {
   color: #444343;
+}
+/* ============== my plans styles */
+.my-plan {
+  text-align: center;
+  color: #151414;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.plans-items {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.plan-item-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+}
+.plan-item-sub-title {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
 }
