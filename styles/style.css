@@ -4,7 +4,7 @@
 }
 /* ========== header style ============ */
 .header {
-  background-image: url("/banner/banner3.png");
+  background-image: url("../banner/banner3.png");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -52,7 +52,6 @@ main {
   height: 723.3px;
 }
 .failures-list {
-  background-color: aquamarine;
   padding-top: 200px;
   width: 416px;
   height: 400px;
@@ -68,5 +67,12 @@ main {
   font-size: 16px;
   width: 380px;
   height: 104px;
+  color: #444343;
+}
+.fails-list {
+  width: 349px;
+  height: 162px;
+}
+.fails-list.p {
   color: #444343;
 }
