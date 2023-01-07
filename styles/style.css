@@ -5,14 +5,15 @@
 /* ========== header style ============ */
 .header {
   background-image: url("../banner/banner3.png");
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
   height: 100vh;
 }
 .banner-details {
+  display: inline-block;
+  padding-left: 700px;
   padding-top: 100px;
-  padding-left: 160px;
-  text-align: left;
+  text-align: right;
   color: white;
 }
 .banner-title {
@@ -24,7 +25,7 @@
 .banner-description {
   margin-top: 24px;
   margin-bottom: 25px;
-  width: 494px;
+  width: 520px;
   height: 78px;
 }
 .banner-contact {
@@ -99,6 +100,12 @@ main {
   font-size: 25px;
   color: #737272;
 }
+/* ============= dream big ============ */
+/* .my-dream {
+  display: flex;
+  justify-content: space-between;
+} */
+
 /* ============= call now styles========= */
 .call-now {
   /* background-image: url("/media/images/watch.png"); */
@@ -129,7 +136,7 @@ main {
 }
 /* ============= footer styles ========= */
 .footer {
-  height: 400px;
+  height: 450px;
   background: #151414;
 }
 .footer-content {
@@ -158,8 +165,11 @@ main {
   font-size: 16px;
   width: 190px;
   height: 26px;
-
+  margin-bottom: 10px;
   color: #ffffff;
+}
+.social-icon {
+  padding-right: 14px;
 }
 .subscribe-title {
   width: 123px;
@@ -170,6 +180,7 @@ main {
   padding-bottom: 20px;
 }
 .subscribe-email {
+  border: 3px solid #f8f8f8;
   width: 325px;
   height: 64px;
   background: #151414;
